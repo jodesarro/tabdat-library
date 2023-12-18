@@ -1,14 +1,8 @@
-# Biblioteca para arquivos de dados tabulares
+# Biblioteca Tabdat: um conjunto de funções em C++ para lidar com arquivos de dados numéricos tabulares
 
 <p align="right"><a href="README.md">Read in English</a></p>
 
-Um conjunto de funções em C++ para lidar com arquivos de dados numéricos tabulares.
-
-Arquivos de dados tabulares possuem uma estrutua na qual as linhas são separadas por quebras de linha e as colunas são separadas por espaçamento tabular.
-
-É muito útil na importação e exportação de matrizes, tabelas, conjuntos de dados numéricos e etc.
-
-Geralmente esses arquivos são utilizados na importação e exportação de dados em softwares como o Google Sheets, Microsoft Excel, Wolfram Mathematica (no [formato Table .dat](https://reference.wolfram.com/language/ref/format/Table.html)), dentre outros.
+Arquivos de dados tabulares possuem uma estrutua na qual as linhas são separadas por quebras de linha e as colunas são separadas por espaçamento tabular. É um formato muito útil para importação e exportação de matrizes, tabelas, conjuntos de dados numéricos e etc. Geralmente esses arquivos são utilizados na importação e exportação de dados em softwares como o Google Sheets, Microsoft Excel, Wolfram Mathematica (no [formato Table .dat](https://reference.wolfram.com/language/ref/format/Table.html)), dentre outros.
 
 ## Funções disponíveis
 
@@ -117,6 +111,10 @@ O trecho abaixo mostra uma maneira alternativa de importar um arquivo de dados n
 MyTable = Import["my_tabdat_file.dat"]
 ```
 
+## Autoria
+
+Os códigos e rotinas foram desenvolvidos e são atualizados por <a href="https://www.researchgate.net/profile/Jhonas-de-Sarro">Jhonas O. de Sarro</a> ([@jodesarro]( https://github.com/jodesarro )).
+
 ## Licença
 
-Este projeto está protegido sob a licença <a href="LICENSE">MIT License</a> e tem [@jodesarro](https://github.com/jodesarro) como seu principal autor.
+Este projeto está protegido sob a licença <a href="LICENSE">MIT License</a>.
