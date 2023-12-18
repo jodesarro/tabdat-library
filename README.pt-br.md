@@ -1,4 +1,4 @@
-# Biblioteca Tabdat: um conjunto de funções em C++ para lidar com arquivos de dados numéricos tabulares
+# Biblioteca TABdat: um conjunto de funções em C++ para lidar com arquivos de dados numéricos tabulares
 
 <p align="right"><a href="README.md">Read in English</a></p>
 
