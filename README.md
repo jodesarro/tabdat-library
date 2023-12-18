@@ -1,4 +1,4 @@
-# Tabdat library: A set of C++ functions for dealing with tabular numeric data files
+# TABdat library: A set of C++ functions for dealing with tabular numeric data files
 
 <p align="right"><a href="README.pt-br.md">Leia em português (br)</a></p>
 
