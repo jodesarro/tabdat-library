@@ -1,14 +1,8 @@
-# Library for tabular data file format
+# Tabdat library: A set of C++ functions for dealing with tabular numeric data files
 
 <p align="right"><a href="README.pt-br.md">Leia em português (br)</a></p>
 
-A set of C++ functions for dealing with tabular numeric data files.
-
-Tabular data files have a structure in which lines are separated by line breaks and columns are separated by tabular spacing.
-
-It is very useful for importing and exporting matrices, tables, numeric datasets and so on.
-
-These files are generally used for importing and exporting data in software such as Google Sheets, Microsoft Excel, Wolfram Mathematica (in [.dat Table format](https://reference.wolfram.com/language/ref/format/Table.html)), among others.
+Tabular data files have a structure in which lines are separated by line breaks and columns are separated by tabular spacing. It is a very useful format for importing and exporting matrices, tables, numeric datasets, and so on. Such files are generally used for importing and exporting data in software such as Google Sheets, Microsoft Excel, Wolfram Mathematica (in [.dat Table format](https://reference.wolfram.com/language/ref/format/Table.html)), among others.
 
 ## Available functions
 
@@ -117,6 +111,10 @@ And the final excerpt is an alternative way to import numeric data from a tabula
 MyTable = Import["my_tabdat_file.dat"]
 ```
 
+## Authorship
+
+The codes and routines were developed and are updated by <a href="https://www.researchgate.net/profile/Jhonas-de-Sarro">Jhonas O. de Sarro</a> ([@jodesarro]( https://github.com/jodesarro )).
+
 ## Licensing
 
-This project is protected under <a href="LICENSE">MIT License</a> and [@jodesarro]( https://github.com/jodesarro ) is the principal author.
+This project is protected under <a href="LICENSE">MIT License</a>. 
